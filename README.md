@@ -22,7 +22,7 @@ This project is a small game developed in JavaScript where the user has to guess
 
 ## Screenshots
 
-![Game Screenshot](Javascript/game.png)
+![Game Screenshot](Javascript/jeu.png)
 
 *Example screenshot showing the game interface.*
 
