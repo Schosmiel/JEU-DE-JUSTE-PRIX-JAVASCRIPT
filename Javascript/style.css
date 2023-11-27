@@ -1,0 +1,79 @@
+body{
+  height: 150vh;
+  font-family : Arial, Helvetica, sans-serif;
+  background: no-repeat center / cover radial-gradient(rgb(245, 191, 120), rgb(253, 144, 0)); 
+  padding: 10px;   
+}
+
+h1{
+    margin-top: 2rem;
+    text-transform: uppercase ;
+    text-align: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.container{
+    width: 100%;
+    max-width: 850px;
+    min-height: 300px;
+    margin: 5rem auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f1f1f1;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+    bottom: 3px double orangered;
+}
+
+p{
+    font-size: 1.2rem;
+    color: #FF5733;
+}
+.message{
+    font-weight: bold;
+}
+.tempsRestant{
+    font-weight: bold;
+    color: #FF5733;
+}
+.compteurTemps{
+    color: red;
+}
+.saisie-utilisateur{
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    color: #FF5733;
+}
+.boutton-devine{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: linear-gradient(45deg, #FF5733, #FFC300);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.boutton-devine:hover{
+    background: linear-gradient(45deg,#FFC300, #FF5733);    
+}
+
+.historique{
+    list-style: none;
+    padding: 0;
+}
+
+.historique li{
+    font-size: 1.2rem;
+    margin: 5px 0;
+    border: 1px solid #FF5733;
+    padding: 10px;
+    background: linear-gradient(45deg,#FFC300, #FF5733);
+    color: #fff;
+    text-align: left;
+}

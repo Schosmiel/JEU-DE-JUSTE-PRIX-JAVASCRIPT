@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jeu De Juste Prix</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Juste Prix</h1>
+        <p>Devine le prix de ce tableau entre 1 à 100$ :</p>
+        <img src="image.jpg" alt="Image"><br>
+        <input type="text" class="saisie-utilisateur"> <br> <br>
+        <button class="boutton-devine">Devine</button>
+       <p class="message"></p>
+       <p>Temps Restant <span class="compteur-temps">30</span> Seconde(s)</p>
+
+       <h2>Historique des devinettes</h2>
+
+       <ul class="historique"></ul>
+
+       <audio id="finCompteurAudio" src="audio.mp3" preload="auto"></audio>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
