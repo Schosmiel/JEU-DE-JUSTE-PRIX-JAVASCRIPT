@@ -1,59 +1,59 @@
-# Jeu de Devine le Nombre
+# Guess the Number Game
 
 ## Introduction
 
-Ce projet est un petit jeu développé en JavaScript où l'utilisateur doit deviner un nombre aléatoire entre 1 et 100 dans un laps de temps donné.
+This project is a small game developed in JavaScript where the user has to guess a random number between 1 and 100 within a given time frame.
 
-## Fonctionnalités
+## Features
 
-- Génération d'un nombre aléatoire entre 1 et 100.
-- Compteur de temps pour limiter la durée du jeu.
-- Saisie utilisateur pour deviner le nombre.
-- Historique des tentatives avec résultats.
-- Message de victoire ou défaite à la fin du temps imparti.
+- Generation of a random number between 1 and 100.
+- Time counter to limit the duration of the game.
+- User input to guess the number.
+- History of attempts with results.
+- Victory or defeat message at the end of the allotted time.
 
-## Comment jouer
+## How to Play
 
-1. Ouvrez le fichier `index.html` dans votre navigateur.
-2. Saisissez un nombre entre 1 et 100 dans le champ de saisie.
-3. Cliquez sur le bouton "Devine".
-4. Le programme vous donnera des indications sur la relation entre votre proposition et le nombre généré.
-5. Répétez les étapes 2-4 jusqu'à ce que vous trouviez le nombre ou que le temps imparti soit écoulé.
+1. Open the `index.html` file in your browser.
+2. Enter a number between 1 and 100 in the input field.
+3. Click on the "Guess" button.
+4. The program will provide indications about the relationship between your guess and the generated number.
+5. Repeat steps 2-4 until you find the number or the allotted time expires.
 
-## Capture d'Écran
+## Screenshots
 
-![Capture d'écran du jeu](Javascript/jeu.png)
+![Game Screenshot](Javascript/game.png)
 
-*Exemple de capture d'écran montrant l'interface du jeu.*
+*Example screenshot showing the game interface.*
 
+![Loss](Javascript/lost.png)
 
-![ Echéc ](Javascript/lost.png)
+*Example screenshot showing the game interface when the player loses.*
 
-*Exemple de capture d'écran montrant l'interface du jeu lorsque le joueur perd.*
+![Win](Javascript/win.png)
 
-![ Gagné ](Javascript/win.png)
+*Example screenshot showing the game interface when the player wins.*
 
-*Exemple de capture d'écran montrant l'interface du jeu lorsque le joueur gagne.*
+## JavaScript Code
 
-## Code JavaScript
+The JavaScript code is divided into several parts:
 
-Le code JavaScript est divisé en plusieurs parties :
+- **Generation of the random number:** `const nombreAleatoire = Math.floor(Math.random() * 100) + 1;`
 
-- **Génération du nombre aléatoire :** `const nombreAleatoire = Math.floor(Math.random() * 100) + 1;`
+- **Handling user input:** The `gererDevine` function processes the user's input, checks its validity, compares it with the random number, and updates the display accordingly.
 
-- **Gestion de la saisie utilisateur :** La fonction `gererDevine` traite la saisie de l'utilisateur, vérifie sa validité, compare avec le nombre aléatoire et met à jour l'affichage en conséquence.
+- **Time decrementation:** The `decrementerTemps` function reduces the remaining time each second. An interval is set to call this function every second.
 
-- **Décrémentation du temps :** La fonction `decrementerTemps` réduit le temps restant à chaque seconde. Un intervalle est défini pour appeler cette fonction toutes les secondes.
-
-- **Fin du jeu :** Un délai de 30 secondes est défini avec `setTimeout` pour mettre fin au jeu. Si l'utilisateur n'a pas deviné le nombre dans le temps imparti, le bouton de devinette est désactivé et un message de défaite est affiché.
+- **End of the game:** A delay of 30 seconds is set with `setTimeout` to end the game. If the user hasn't guessed the number within the allotted time, the guess button is disabled, and a defeat message is displayed.
 
 ## Installation
 
-Aucune installation spécifique n'est nécessaire. Ouvrez simplement le fichier `index.html` dans un navigateur moderne.
+No specific installation is required. Simply open the `index.html` file in a modern browser.
 
-## Auteur
+## Author
 
 Richard GADJENOU
 
-N'hésitez pas à apporter des améliorations ou à personnaliser le jeu selon vos besoins. Amusez-vous bien !
+Feel free to make improvements or customize the game according to your needs. Have fun!
+
 
