@@ -44,7 +44,7 @@ Aucune installation spécifique n'est nécessaire. Ouvrez simplement le fichier 
 
 ## Auteur
 
-[Votre Nom]
+[https://github.com/Schosmiel/JEU-DE-JUSTE-PRIX-JAVASCRIPT.git]
 
 N'hésitez pas à apporter des améliorations ou à personnaliser le jeu selon vos besoins. Amusez-vous bien !
 
