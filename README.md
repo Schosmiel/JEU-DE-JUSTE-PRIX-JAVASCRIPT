@@ -26,6 +26,15 @@ Ce projet est un petit jeu développé en JavaScript où l'utilisateur doit devi
 
 *Exemple de capture d'écran montrant l'interface du jeu.*
 
+
+![ Echéc ](Javascript/lost.png)
+
+*Exemple de capture d'écran montrant l'interface du jeu lorsque le joueur perd.*
+
+![ Gagné ](Javascript/win.png)
+
+*Exemple de capture d'écran montrant l'interface du jeu lorsque le joueur gagne.*
+
 ## Code JavaScript
 
 Le code JavaScript est divisé en plusieurs parties :
