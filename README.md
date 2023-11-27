@@ -22,7 +22,7 @@ Ce projet est un petit jeu développé en JavaScript où l'utilisateur doit devi
 
 ## Capture d'Écran
 
-![Capture d'écran du jeu](jeu.png)
+![Capture d'écran du jeu](Javascript/jeu.png)
 
 *Exemple de capture d'écran montrant l'interface du jeu.*
 
